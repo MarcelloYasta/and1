@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/homeand"
+    >
+
+    <ImageView
+        android:id="@+id/sc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="389dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="400dp"
+        android:src="@drawable/ic_baseline_search_24"
+        />
+
+    <Button
+        android:id="@+id/s1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="S1"
+        android:text="Al-Fatihah (Pembuka)"
+        android:padding="15dp"
+        android:textColor="#103952"
+        android:textSize="17sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="S2"
+        android:text="Al-Baqarah (Sapi Betina)"
+        android:textColor="#103952"
+        android:textSize="17sp"
+        android:padding="15dp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="S3"
+        android:text="Ali-Imran (Keluarga Imran)"
+        android:textColor="#103952"
+        android:padding="15dp"
+        android:textSize="17sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/s4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="S4"
+        android:text="An-Nisa (Wanita)"
+        android:padding="15dp"
+        android:textColor="#103952"
+        android:textSize="17sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/s5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="S5"
+        android:text="Al-Ma'idah (Jamuan)"
+        android:padding="15dp"
+        android:textColor="#103952"
+        android:textSize="17sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/s6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="S6"
+        android:text="Al-An'am (Hewan Ternak)"
+        android:padding="15dp"
+        android:textColor="#103952"
+        android:textSize="17sp"
+        tools:ignore="OnClick" />
+
+
+    <Button
+        android:id="@+id/s7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="S7"
+        android:text="Al-A'raf (Tempat Tertinggi)"
+        android:padding="15dp"
+        android:textColor="#103952"
+        android:textSize="17sp"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/hm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="850dp"
+        android:layout_marginRight="400dp"
+        android:src="@drawable/ic_baseline_home_24"
+        />
+
+    <ImageView
+        android:id="@+id/hs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="870dp"
+        android:layout_marginRight="400dp"
+        android:src="@drawable/ic_baseline_history_24"
+        />
+
+    <ImageView
+        android:id="@+id/ac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="389dp"
+        android:layout_marginTop="870dp"
+        android:layout_marginRight="400dp"
+        android:src="@drawable/acc"
+        />
+
+</RelativeLayout>
